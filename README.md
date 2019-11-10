@@ -1,4 +1,4 @@
-# Todo
+# Sebangau Todo
 
 ## Description
 
@@ -19,7 +19,7 @@ Simple Todo Application.
 
 ## Requirements
 
-1. A browser who support HTML 5, CSS 3, and ECMASCRIPT 6.
+1. A browser who support HTML 5, CSS 3, and ECMASCRIPT 6
 
 ## Usage
 

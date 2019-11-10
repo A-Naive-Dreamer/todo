@@ -1,0 +1,37 @@
+body {
+  background: linear-gradient(#7b8993, #00ffff);
+}
+
+.col-11.bg-danger,
+.col-11.bg-success {
+  border-radius: 25px;
+  margin: 20px;
+  height: 250px;
+  overflow: hidden;
+}
+
+#completed-tasks,
+#uncompleted-tasks {
+  height: 250px;
+  overflow: auto;
+}
+
+#completed-tasks > li,
+#uncompleted-tasks > li {
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+}
+
+#completed-tasks > li:hover {
+  background-color: rgb(10, 137, 39);
+  cursor: pointer;
+  font-size: 2em;
+}
+
+#uncompleted-tasks > li:hover {
+  background-color: rgb(190, 23, 39);
+  cursor: pointer;
+  font-size: 2em;
+}

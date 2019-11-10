@@ -35,7 +35,7 @@ Simple Todo Application.
 
 ![Screenshot Todo Application](https://justanaivedreamer.files.wordpress.com/2019/11/screenshot_2019-11-11-todo.png)
 
-# Credits
+# Credit
 
 1. [Atallabela Yosua](https://github.com/A-Naive-Dreamer)
 

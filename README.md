@@ -12,7 +12,7 @@ Simple Todo Application.
    - [Requirements](#requirements)
    - [Usage](#usage)
    - [Screenshots](#screenshots)
-4. [Credit](#credit)
+4. [Credits](#credits)
 3. [License](#license)
 
 # Getting Started

@@ -22,7 +22,7 @@ function prepareTodo() {
     tasks = JSON.parse(localStorage.getItem('tasks'))
 
     for (let x = 0; x < tasks.length; ++x) {
-      if (tasks[x].status == 'uncompleted') {
+      if (tasks[x].status === 'uncompleted') {
         let newList = document.createElement('li')
 
         ++id
@@ -36,6 +36,7 @@ function prepareTodo() {
 
         $('#uncompleted-tasks').append(newList)
         a.push(x)
+
         ++c
       } else if (tasks[x].status == 'completed') {
         let newList = document.createElement('li')
@@ -51,6 +52,7 @@ function prepareTodo() {
 
         $('#completed-tasks').append(newList)
         b.push(x)
+
         ++d
       }
     }
@@ -97,6 +99,7 @@ $('#add-new-task').click(function () {
       alerts.append(alert)
       alert.append(`[${c}] ${$('#new-task').val()} has been added.`)
       alert.append(closeButton)
+
       closeButton.append(String.fromCharCode(215))
 
       prepareTodo()
@@ -129,6 +132,7 @@ $('#mark-task-as-completed').click(function () {
     alerts.append(alert)
     alert.append(`[${realId}] ${tasks[a[realId - 1]].task} has been completed.`)
     alert.append(closeButton)
+
     closeButton.append(String.fromCharCode(215))
 
     prepareTodo()
@@ -165,6 +169,7 @@ $('#mark-task-as-deleted').click(function () {
       alerts.append(alert)
       alert.append(`[${realId}] ${tasks[b[realId - 1]].task} has been deleted.`)
       alert.append(closeButton)
+
       closeButton.append(String.fromCharCode(215))
 
       prepareTodo()
@@ -198,6 +203,7 @@ $('#mark-task-as-updated').click(function () {
       alerts.append(alert)
       alert.append(`[${realId}] ${tasks[a[realId - 1]].task} has been updated.`)
       alert.append(closeButton)
+
       closeButton.append(String.fromCharCode(215))
 
       tasks[a[realId - 1]].task = $('#new-task-value').val()

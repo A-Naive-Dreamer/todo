@@ -14,18 +14,18 @@
 </head>
 
 <body>
-    <div id="wrapper" class="container-fluid row">
-        <div class="col-11 mx-auto">
+    <div id="wrapper" class="row">
+        <div class="col-12 col-md-11 mx-auto">
             <div class="form-group">
                 <button id="go-to-fullscreen" class="btn btn-success btn-block">
                     Go To Fullscreen
                 </button>
             </div>
         </div>
-        <div id="alerts" class="col-11 mx-auto">
+        <div id="alerts" class="col-12 col-md-11 mx-auto">
         </div>
-        <div class="col-6 row" style="height: 550px; overflow: auto">
-            <div class="col-11 mx-auto">
+        <div class="col-12 col-md-6 row" style="height: 550px; overflow: auto">
+            <div class="col-12 col-md-11 mx-auto">
                 <div class="form-group">
                     <input type="text" name="new-task" class="form-control" id="new-task" placeholder="New Task" />
                 </div>
@@ -35,7 +35,7 @@
                     </button>
                 </div>
             </div>
-            <div class="col-11 mx-auto">
+            <div class="col-12 col-md-11 mx-auto">
                 <div class="form-group">
                     <input type="text" name="updated-task-number" class="form-control" id="updated-task-number"
                         placeholder="Updated Task Number" />
@@ -46,43 +46,43 @@
                 </div>
                 <div class="form-group">
                     <button type="button" id="mark-task-as-updated" class="btn btn-primary btn-block">
-                        Updated
+                        Update
                     </button>
                 </div>
             </div>
-            <div class="col-11 mx-auto">
+            <div class="col-12 col-md-11 mx-auto">
                 <div class="form-group">
                     <input type="text" name="completed-task-number" class="form-control" id="completed-task-number"
                         placeholder="Completed Task Number" />
                 </div>
                 <div class="form-group">
                     <button type="button" id="mark-task-as-completed" class="btn btn-primary btn-block">
-                        Completed
+                        Complete
                     </button>
                 </div>
             </div>
-            <div class="col-11 mx-auto">
+            <div class="col-12 col-md-11 mx-auto">
                 <div class="form-group">
                     <input type="text" name="deleted-task-number" class="form-control" id="deleted-task-number"
                         placeholder="Deleted Task Number" />
                 </div>
                 <div class="form-group">
                     <button type="button" id="mark-task-as-deleted" class="btn btn-primary btn-block">
-                        Deleted
+                        Delete
                     </button>
                 </div>
             </div>
         </div>
-        <div class="col-6 row" style="height: 550px; overflow: auto">
-            <div class="col-11 mx-auto bg-danger">
-                <h1 class="bg-info text-center">
+        <div class="col-12 col-md-6 row" style="height: 550px; overflow: auto">
+            <div class="col-12 col-md-11 mx-auto bg-danger">
+                <h1 class="bg-info text-center font-weight-bolder text-white">
                     Uncompleted Task
                 </h1>
                 <ul id="uncompleted-tasks" class="list-unstyled">
                 </ul>
             </div>
-            <div class="col-11 mx-auto bg-success">
-                <h1 class="bg-info text-center">
+            <div class="col-12 col-md-11 mx-auto bg-success">
+                <h1 class="bg-info text-center font-weight-bolder text-white">
                     Completed Task
                 </h1>
                 <ul id="completed-tasks" class="list-unstyled">

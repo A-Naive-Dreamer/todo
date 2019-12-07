@@ -2,6 +2,11 @@ body {
   background: linear-gradient(#7b8993, #00ffff);
 }
 
+#wrapper {
+  box-sizing: border-box;
+  padding: 10px;
+}
+
 .col-11.bg-danger,
 .col-11.bg-success {
   border-radius: 25px;
@@ -24,6 +29,10 @@ body {
   text-align: center;
 }
 
+#completed-tasks > li {
+  text-decoration: line-through;
+}
+
 #completed-tasks > li:hover {
   background-color: rgb(10, 137, 39);
   cursor: pointer;
@@ -34,4 +43,10 @@ body {
   background-color: rgb(190, 23, 39);
   cursor: pointer;
   font-size: 2em;
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 1.5em;
+  }
 }

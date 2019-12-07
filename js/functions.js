@@ -38,7 +38,7 @@ function prepareTodo() {
         a.push(x)
 
         ++c
-      } else if (tasks[x].status == 'completed') {
+      } else if (tasks[x].status === 'completed') {
         let newList = document.createElement('li')
 
         ++id
@@ -180,7 +180,7 @@ $('#mark-task-as-deleted').click(function () {
 $('#mark-task-as-updated').click(function () {
   if (
     /^[0-9]$/.test($('#updated-task-number').val()) &&
-    $('#new-task-value').val() != ''
+    $('#new-task-value').val() !== ''
   ) {
     if (confirm('Are you sure want to update task value?')) {
       let realId = $('#updated-task-number').val(),

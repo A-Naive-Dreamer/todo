@@ -12,7 +12,7 @@ Simple Todo Application.
    - [Requirements](#requirements)
    - [Usage](#usage)
    - [Screenshots](#screenshots)
-4. [Credit](#credit)
+4. [Credits](#credits)
 3. [License](#license)
 
 # Getting Started
@@ -35,7 +35,7 @@ Simple Todo Application.
 
 ![Screenshot Todo Application](https://justanaivedreamer.files.wordpress.com/2019/11/screenshot_2019-11-11-todo.png)
 
-# Credit
+# Credits
 
 1. [Atallabela Yosua](https://github.com/A-Naive-Dreamer)
 
